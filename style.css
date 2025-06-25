@@ -370,3 +370,72 @@
 	background: black;
 	margin-top: 85px;
 }
+
+
+/*footer*/
+footer{
+	background: var(--color-blue);
+	padding: 124px 0;
+}
+.footer-content{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: end;
+}
+
+.footer-start > div{
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+.footer-start > div > h1 {
+	color: #FFF;
+	font-size: 42.143px;
+	font-weight: 700; 
+	line-height: 50px;
+}
+
+.footer-start > p{
+	color: #FFF;
+	font-weight: 400;
+	margin-top: 35px;
+}
+.footer-texts a{
+	display: block;
+	color: #FFF;
+}
+
+.footer-texts{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	width: 100%;
+}
+.footer-texts h3{
+color: #FFF;
+font-size: 24px;
+font-weight: 700;
+}
+
+.footer-end{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: end;
+	gap: 32px;
+	width: 100%;
+}
+.footer-end h3{
+	color: #FFF;
+font-size: 27px;
+font-weight: 700;
+
+}
+
+.footer-end div{
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
